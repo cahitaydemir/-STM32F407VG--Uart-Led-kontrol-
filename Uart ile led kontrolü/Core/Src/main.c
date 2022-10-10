@@ -25,7 +25,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include <stdlib.h>
+
 
 
 /* USER CODE END Includes */
@@ -262,7 +262,7 @@ void LED_DURUM(int sure){
                   offindeks=0;           
             }
                             
-         off= atoi(TempSureOff);                        
+         off= atoi(OffBuffer);                        
      }
      
      if(data[0]=='s'&& data[1]=='t'&& data[2]=='o'&& data[3]=='p'){
